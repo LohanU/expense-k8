@@ -34,7 +34,7 @@ spec:
         image: lohanu/backend:v1
         envFrom: 
         - configMapRef: 
-          name: backend
+           name: backend
 ---
 
 kind: Service
